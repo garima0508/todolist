@@ -11,7 +11,6 @@ const TodoList=(props)=>{
                onClick={()=>{
                    props.onSelect(props.id);
                }}>
-
                </i>
                <li>{props.text}</li>
             </div>
